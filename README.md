@@ -57,6 +57,25 @@ app/
 - [Documentation React Native](https://reactnative.dev/)
 - [Documentation TypeScript](https://www.typescriptlang.org/docs/)
 
+## Liens utiles :
+
+[Formation React Native et Expo - Slidev](https://react-native.andromed.fr/stockage-local)
+[Getting started | React Navigation](https://reactnavigation.org/docs/getting-started)
+[Introduction to Expo Router - Expo Documentation](https://docs.expo.dev/router/introduction/)
+[Building Your Application: Routing | Next.js](https://nextjs.org/docs/pages/building-your-application/routing)
+[Navigating | React Router](https://reactrouter.com/start/framework/navigating)
+[Exploring React Native Navigation with Expo: A Complete Guide - DEV Community](https://dev.to/vrinch/exploring-react-native-navigation-with-expo-a-complete-guide-4o91)
+[pmndrs/zustand: 🐻 Bear necessities for state management in React](https://github.com/pmndrs/zustand)
+[Installation | TanStack Query React Docs](https://tanstack.com/query/latest/docs/framework/react/installation)
+[Using the Fetch API - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+[Context – React](https://legacy.reactjs.org/docs/context.html)
+[mutation body react query - Google Search](https://www.google.com/search?q=mutation+body+react+query&rlz=1C5CHFA_enFR1027FR1027&ie=UTF-8)
+[Expo/React Native Mobile Development Overview - Claude](https://claude.ai/chat/83d1c5b3-e186-4862-9ffe-d0f8656d8a41)
+[SecureStore - Expo Documentation](https://docs.expo.dev/versions/latest/sdk/securestore/)
+[Auth - DummyJSON - Free Fake REST API for Placeholder JSON Data](https://dummyjson.com/docs/auth)
+[JSurquin/expo-router-auth-zustand-expo-secure-data-use-query-fetch-et-mutation-: exemple pour les eleves](https://github.com/JSurquin/expo-router-auth-zustand-expo-secure-data-use-query-fetch-et-mutation-)
+[expo-router-auth-zustand-expo-secure-data-us-jsurquins-projects.vercel.app](https://expo-router-auth-zustand-expo-secure-data-us-jsurquins-projects.vercel.app/login)
+
 ## 🤝 Contribution
 
 N'hésitez pas à explorer le code, faire des modifications et expérimenter ! C'est en pratiquant que l'on apprend le mieux.
