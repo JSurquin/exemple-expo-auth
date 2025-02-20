@@ -1,50 +1,72 @@
-# Welcome to your Expo app 👋
+# Application Mobile de Démonstration 📱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Ce projet est une application mobile développée avec [Expo](https://expo.dev) pour vous aider à comprendre les concepts fondamentaux du développement d'applications mobiles.
 
-## Get started
+## 🎯 Objectif Pédagogique
 
-1. Install dependencies
+Cette application sert de démonstration pour illustrer :
+
+- La création d'une interface utilisateur mobile
+- La gestion de l'authentification (connexion/inscription)
+- L'utilisation d'une navigation par onglets
+- La récupération et l'affichage de données depuis une API
+- La gestion d'état global avec un store
+
+## 🛠 Technologies Utilisées
+
+- **React Native** : Framework pour créer des applications mobiles
+- **Expo** : Plateforme simplifiant le développement React Native
+- **TypeScript** : Langage de programmation typé basé sur JavaScript
+- **React Query** : Bibliothèque pour la gestion des requêtes API
+- **Zustand** : Gestionnaire d'état global simple et efficace
+
+## 🚀 Pour Commencer
+
+1. Installez les dépendances :
 
    ```bash
    npm install
    ```
 
-2. Start the app
-
+2. Lancez l'application :
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## 📱 Fonctionnalités
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **Authentification** : Système de connexion et d'inscription
+- **Profil Utilisateur** : Affichage et gestion des informations personnelles
+- **Navigation** : Système de navigation entre les différentes pages
+- **Intégration API** : Exemple d'utilisation d'une API externe
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 💡 Structure du Projet
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+app/
+├── (private)/       # Pages accessibles après connexion
+│   └── (tabs)/     # Navigation par onglets
+├── (public)/       # Pages publiques
+│   └── (screens)/  # Écrans de connexion/inscription
+└── _layout.tsx     # Configuration de la navigation
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📚 Ressources pour Apprendre
 
-## Learn more
+- [Documentation Expo](https://docs.expo.dev/)
+- [Documentation React Native](https://reactnative.dev/)
+- [Documentation TypeScript](https://www.typescriptlang.org/docs/)
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🤝 Contribution
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+N'hésitez pas à explorer le code, faire des modifications et expérimenter ! C'est en pratiquant que l'on apprend le mieux.
 
-## Join the community
+## ❓ Besoin d'aide ?
 
-Join our community of developers creating universal apps.
+Si vous avez des questions ou rencontrez des difficultés, n'hésitez pas à :
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Consulter la documentation des technologies utilisées
+- Demander de l'aide à votre enseignant
+- Explorer le code source pour mieux comprendre son fonctionnement
+
+Bon apprentissage ! 🎓
